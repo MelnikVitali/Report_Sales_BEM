@@ -1,0 +1,140 @@
+@media all and (max-width: 1054px){
+	.tab-report__data--1020-none{
+		display:none !important;
+	}
+} 
+@media all and (max-width: 1020px){
+	.tab-report__data--1020-none{
+		display:none !important;
+	}
+} 
+@media all and (max-width: 1054px){
+	.nav-panel{
+		float: none;
+		width: 100%;
+	}
+	.indicators{		
+		float: none;
+		width: 100%;
+	}
+	.nav-indicators{
+		float: none;
+		width: 100%;
+		margin-top: 25px; /* добавляем пробел сверху заголовка таблицы */
+		margin-bottom: -3px; /* убираем пробел снизу заголовка таблицы */
+	}
+	.item-circle {
+    	text-align: left; /* выранивание кругов по центру */
+	}
+	.nav-panel__circle{
+		margin-left: 4px; /* смещение к середине большого круга при 992px */	
+	}
+	.nav-panel__circle--big{/* отмена смещения самого большого круга при 992px */
+		margin-left: 0px;
+	} 	
+} 
+@media all and (max-width: 769px){
+	.tab-report{	
+		margin-top: 20px;
+		float: none;
+	}
+	.text-report{
+		float: none;		
+	}
+	.search-panel{
+		display: none;
+	}
+	.indicators{
+		overflow-x: scroll !important; /* таблица с графиком скрол */
+	}
+	.nav-indicators__text{
+		float: none; /* текс в заголовке таблицы */
+	}
+	.nav-indicators__list{
+		float: none;   /* иконки диаграмм и текст со стрелкой ul*/
+		width: 100%;
+		overflow: hidden;
+		border-top: 1px solid #d9d9d9;
+	}
+	.media769--w50{     /* иконки диаграмм и текст со стрелкой li*/
+		width: 50%;
+	}
+	.nav-indicators__item--border{  /*  border в иконках диаграмм */
+		border-left: none;
+	}
+}
+@media all and (max-width: 547px){
+	.footer__vertical-line{
+		display: none;
+	}
+	.footer__chevron-list{
+		float: none;
+		width: 100%;
+	}
+	.footer__chevron-item{
+		width: 50%;
+	}
+	.footer__button{
+		float: none;
+	}
+	.footer__button-img{ /* значек Excel */
+		float: none;
+		vertical-align: middle;
+	}
+	.footer__page{
+		float: none;
+		width: 100%;
+	}
+}
+@media all and (max-width: 495px){
+	.text-report{
+		font-size: 18px;
+	}
+	.tab-report__line{
+		display: none;
+	}
+	.tab-report__data--495-w100{
+		width: 100%;
+		margin-bottom: 3px;
+	}	
+	.tab-report__day--495-w20{
+		width: 20%;
+		text-align: center;
+	}
+	.tab-report__day--495-w80{
+		width: 80%;
+		text-align: center;
+	}
+	.tab-report__day--495-w50{
+		width: 50%;
+	}
+	.item-circle{
+		display: none;/* убираем круги */
+	}
+	.item-text{
+		width: 39%; /* Увеличиваем размер блока с цифрами */
+	}
+	.item-img{
+		width: 59%;/* Увеличиваем размер блока с картинками */
+	}
+	.media495--w100{
+		width: 100%;
+	}		
+	.nav-indicators__item--border{  /*  border в иконках диаграмм */
+		border-right: none;
+		border-bottom: 1px solid #d9d9d9;
+	}
+	
+}
+@media all and (max-width: 350px){
+	.nav-panel__img{
+		display: none;
+	}
+	.nav-panel__text {
+    padding-left: 0px;
+	}
+	.nav-panel__text--big{
+	padding-left: 7px;
+	}
+}
+

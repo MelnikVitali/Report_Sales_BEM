@@ -1,0 +1,25 @@
+/* open block indicators */
+.indicators{
+	width: calc(100% - 320px);
+	width:-webkit-calc(100% - 320px);
+	height: 283px;
+	margin-bottom: 25px;
+	border: 1px solid  #d9d9d9;
+	border-top: 0;
+	background: white;
+	font-size: 11px;
+	color:#767676; /* text color*/
+	overflow: hidden;
+}
+.indicators__schedule{	
+	display: table;
+	width: 100%;
+	height: 100%;
+	white-space: nowrap;
+}
+.indicators__text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100px;
+}

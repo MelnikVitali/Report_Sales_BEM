@@ -1,0 +1,48 @@
+/* open block nav-indicators */
+.nav-indicators{
+	display: inline-block;
+	width: calc(100% - 320px);
+	width:-webkit-calc(100% - 320px);
+	border: 1px solid  #d9d9d9;	
+	background: white;
+	font-size: 11px;
+	color:#767676; /* text color*/
+}
+.nav-indicators__text{
+	font-size: 14px;
+	padding: 9px 6px;
+	white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    text-overflow: ellipsis; /* Многоточие */
+}
+.nav-indicators__grafik{
+	min-width: 50px;
+	padding: 6px 18px;
+    display: inline-block;
+	text-align: center;
+	border-bottom: 3px solid transparent;   
+}
+.nav-indicators__grafik:hover{
+	border-bottom: 3px solid #48A84F;
+	color: #48A84F; 
+	background-color: #f2f2f2;
+	cursor: pointer; 
+}
+ .nav-indicators__item--border{
+	border-left: 1px solid  #d9d9d9;
+	border-right: 1px solid  #d9d9d9;
+}
+.nav-indicators__grafik-img{
+	font-size: 23px;	
+}
+.nav-indicators__group{
+	padding: 11px 6px ;
+}
+.nav-indicators__group:hover{
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+.nav-indicators__group-text{
+	min-width: 140px;
+	font-size: 12px;	
+}

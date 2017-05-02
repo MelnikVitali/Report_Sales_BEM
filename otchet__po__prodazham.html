@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Отчет по продажам</title>
+
+    <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style__otchet__prodazham.css" rel="stylesheet">
+
+</head>
+<body>
+ <!-- open block header -->
+	<div class="header">
+		<div class="search-icon float-l">
+			<div class="search-icon__menu float-l" title="MENU">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+			<div class="search-icon__text float-l">Отчеты</div>
+		</div>
+		<div class="search-panel float-l">
+			<div class="search-panel__icon float-l">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</div>
+			<div class="search-panel__search float-l">
+				<input class="form-control search-panel__input search-panel__input--color-placeholder" type="text" placeholder="Поиск">
+			</div>	
+		</div>
+	<div class="clear"></div>
+	</div><!-- end block header -->
+	<!-- open block menu -->
+	<div class="menu float-l">
+		<ul class="nav nav-stacked menu__list">
+			<li class="menu__item menu__item--border">
+				<a href="#" class="menu__link">				
+					<img src="images/avatar.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__line">
+				<div class="menu__grey-line"></div>
+			</li>
+			<li class="menu__item menu__item--border menu__item--redorange-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--green-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon2.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--redcoral-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon3.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--blueviolet-border">
+				<a href="" class="menu__link">
+					<img src="images/menu-item-icon4.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--blue-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon5.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--lightblue-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon6.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--darkgreen-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon7.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__line">
+				<div class="menu__grey-line"></div>
+			</li>
+			<li class="menu__item menu__item--border menu__item--orange-border">
+				<a href="" class="menu__link">
+					<img src="images/menu-item-icon8.png" alt="" class="menu__img">
+				</a>
+			</li>
+			<li class="menu__item menu__item--border menu__item--orangebrown-border">
+				<a href="#" class="menu__link">
+					<img src="images/menu-item-icon9.png" alt="" class="menu__img">
+				</a>
+			</li>
+		</ul>		
+	</div><!-- end block menu -->
+	<!-- open block content -->
+	<div class="content float-r">
+		<!-- open block content__header -->
+		<div class="content__header">
+			<h3 class="text-report float-l">Отчет по продажам</h3>
+			<div class="tab-report float-r">
+				<ul class="tab-report__data tab-report__data--margin tab-report__data--495-w100 float-l">
+					<li class="tab-report__day tab-report__day--495-w80 float-l">24-30 Августа 2015</li>
+					<li class="tab-report__day tab-report__day--495-w20 float-l">
+						<i class="fa fa-calendar" aria-hidden="true"></i>
+					</li>
+				</ul>
+				<ul class="tab-report__data tab-report__data--margin-l tab-report__data--1020-none float-l">
+					<li class="tab-report__day float-l">сегодня</li>
+					<li class="tab-report__day float-l">вчера</li>
+					<li class="tab-report__day float-l">эта неделя</li>
+					<li class="tab-report__day float-l">этот месяц</li>
+				</ul>
+				<div class="tab-report__line float-l"></div>
+				<ul class="tab-report__data float-l  tab-report__data--495-w100">
+					<li class="tab-report__day tab-report__day--495-w50 float-l">
+						<div class="icon icon--m-width float-l">
+							<i class="fa fa-credit-card-alt icon__img--padding" aria-hidden="true"></i>Все
+						</div>
+						<div class="icon float-r">
+							<i class="fa fa-caret-down" aria-hidden="true"></i>
+						</div>
+					</li>
+					<li class="tab-report__day tab-report__day--495-w50 float-l">
+						<div class="icon icon--m-width float-l">
+							<span class="glyphicon glyphicon-user icon__img--padding" ></span>Все
+						</div>
+						<div class="icon float-r">
+							<i class="fa fa-caret-down" aria-hidden="true"></i>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div> <!-- end block content__header -->
+		<div class="clear"></div>
+
+		<!-- open block content__present -->
+
+		<div class="content__article">				
+			<div class="nav-panel float-l ">
+				<div class="nav-panel__border">
+					<ul class="nav-panel__list nav-panel__list--big">                       
+		                <li class="nav-panel__item nav-panel__item--big item-img"> 
+		                  <img class="nav-panel__img nav-panel__img--big" src="images/money.png" alt="">
+		                  <span class="nav-panel__text nav-panel__text--big">Выручка</span>
+		                </li>
+		                <li class="nav-panel__item item-circle">
+		                  <div class="nav-panel__circle nav-panel__circle--big">
+		                    <div class="nav-panel__circle-inside"></div>
+		                  </div>
+		                </li>
+		                <li class="nav-panel__item item-text">               
+		                    <p class="nav-panel__txt nav-panel__txt--size-22">17 147</p>
+		                    <p class="nav-panel__txt nav-panel__txt--size-8">
+		                      <span class="glyphicon glyphicon-arrow-up"></span>547(2,4%)
+		                    </p>
+		                </li>
+		            </ul>  <!-- end block panel__list -->
+	            </div>
+	            <div class="nav-panel__border">
+	              <ul class="nav-panel__list nav-panel__list--color-green">                
+	                <li class="nav-panel__item item-img">  
+	                  <i class="fa fa-shopping-basket nav-panel__img" aria-hidden="true"></i>
+	                  <span class="nav-panel__text">Продажи</span>
+	                </li>
+	                <li class="nav-panel__item item-circle">
+	                  <div class="nav-panel__circle nav-panel__circle--color-green">
+	                    <div class="nav-panel__circle-inside nav-panel__circle-inside--color-green"></div>
+	                  </div>
+	                </li>
+	                <li class="nav-panel__item item-text">               
+	                    <p class="nav-panel__txt">20 147</p>                    
+	                </li>
+	              </ul> <!-- end block panel__list -->
+	            </div>              
+	            <div class="nav-panel__border">
+	              <ul class="nav-panel__list nav-panel__list--color-blue">                          
+	                <li class="nav-panel__item item-img">
+	                	<i class="fa fa-money nav-panel__img" aria-hidden="true"></i>
+	                    <span class="nav-panel__text">Наличные</span>
+	                </li>
+	                <li class="nav-panel__item item-circle">
+	                  <div class="nav-panel__circle nav-panel__circle--color-blue">
+	                    <div class="nav-panel__circle-inside nav-panel__circle-inside--color-blue"></div>
+	                  </div>
+	                </li>
+	                <li class="nav-panel__item item-text">               
+	                    <p class="nav-panel__txt">14 598</p>
+	                </li>
+	              </ul> <!-- end block panel__list -->
+	            </div>
+	            <div class="nav-panel__border">
+	              <ul class="nav-panel__list nav-panel__list--color-darkblue">                          
+	                <li class="nav-panel__item item-img"> 
+	                  <i class="fa fa-credit-card nav-panel__img" aria-hidden="true"></i>
+	                  <span class="nav-panel__text">Безналичные</span>
+	                </li>
+	                <li class="nav-panel__item item-circle">
+	                  <div class="nav-panel__circle nav-panel__circle--color-darkblue">
+	                    <div class="nav-panel__circle-inside nav-panel__circle-inside--color-darkblue"></div>
+	                  </div>
+	                </li>
+	                <li class="nav-panel__item item-text">               
+	                    <p class="nav-panel__txt">4 741</p>                    
+	                </li>
+	              </ul> <!-- end block panel__list -->
+	            </div>
+	            <div class="nav-panel__border">
+	              <ul class="nav-panel__list nav-panel__list--color-red">                          
+	                <li class="nav-panel__item item-img"> 
+	                  <i class="fa fa-reply nav-panel__img" aria-hidden="true"></i>
+	                  <span class="nav-panel__text">Возвраты</span>
+	                </li>
+	                <li class="nav-panel__item item-circle">
+	                  <div class="nav-panel__circle nav-panel__circle--color-red">
+	                    <div class="nav-panel__circle-inside nav-panel__circle-inside--color-red"></div>
+	                  </div>
+	                </li>
+	                <li class="nav-panel__item item-text">               
+	                    <p class="nav-panel__txt">357</p>                    
+	                </li>
+	              </ul> <!-- end block panel__list -->
+	            </div>
+	            <div class="nav-panel__border">
+	              <ul class="nav-panel__list nav-panel__list--color-orange">                          
+	                <li class="nav-panel__item item-img">
+	                  <i class="fa fa-tag nav-panel__img" aria-hidden="true"></i>
+	                  <span class="nav-panel__text">Скидки</span>
+	                </li>
+	                <li class="nav-panel__item item-circle">
+	                  <div class="nav-panel__circle nav-panel__circle--color-orange">
+	                    <div class="nav-panel__circle-inside nav-panel__circle-inside--color-orange"></div>
+	                  </div>
+	                </li>
+	                <li class="nav-panel__item item-text">               
+	                    <p class="nav-panel__txt">590</p>                    
+	                </li>
+	              </ul> <!-- end block panel__list -->
+	            </div>                                                                     
+			</div><!-- end block panel -->
+			
+			<div class="nav-indicators float-r">
+				<h4 class="nav-indicators__text float-l">Сравнительные показатели выручки в динамике</h4>
+				<ul class="nav-indicators__list float-r">
+	              <li class="nav-indicators__item  nav-indicators__item--border float-l media769--w50 media495--w100">
+	                <div class="nav-indicators__grafik float-l media769--w50">
+	                  <i class="fa fa-line-chart nav-indicators__grafik-img" aria-hidden="true"></i>      
+	                </div>
+	                <div class="nav-indicators__grafik float-l media769--w50">
+	                  <i class="fa fa-bar-chart nav-indicators__grafik-img" aria-hidden="true"></i>
+	                </div>
+	              </li>
+	              <li class="nav-indicators__item nav-indicators__group float-l media769--w50 media495--w100">
+	                <div class="nav-indicators__group-text float-l">Группировка по:дням</div>
+	                <div class="nav-indicators__group-triangle float-r">
+	                 <i class="fa fa-caret-down icon__triangle--size" aria-hidden="true"></i>  
+	                </div>                
+	              </li>          
+	            </ul>            
+			</div><!-- end block nav-indicators -->
+			<div class="indicators">
+				<div class="indicators__schedule">
+	              <h1 class="indicators__text">Нет данных</h1>
+	            </div>				
+			</div><!-- end block indicators -->			
+		</div><!-- end block content__article -->
+		<!-- open block content__table -->
+        <div class="table-responsive content__table">
+          <table class="table table-hover table-money">              
+            <tbody>
+              <tr class="table-money__tr">
+                <td class="table-money__first-cell table-money__first-row table-money__td--padding">Время/дата/месяц</td>
+                <td class="table-money__first-cell table-money__td--padding">Сумма продажи</td>
+                <td class="table-money__first-cell table-money__td--padding">Сумма наличные</td>
+                <td class="table-money__first-cell table-money__td--padding">Сумма безналичные</td>
+                <td class="table-money__first-cell table-money__td--padding table-money__penultimate-row">Возврат</td>
+                <td class="table-money__first-cell table-money__last-row table-money__td--padding">Выручка</td>
+              </tr>            
+              <tr class="table-money__tr">
+                <td class="table-money__first-row table-money__td--padding">01.06.2015</td>
+                <td class="table-money__td--padding">2 190.00</td>
+                <td class="table-money__td--padding">1 190.00</td>
+                <td class="table-money__td--padding">1 000.00</td>
+                <td class="table-money__penultimate-row table-money__td--padding">12.50</td>
+                <td class="table-money__last-row table-money__td--padding">2 187.50</td>
+              </tr>
+              <tr class="table-money__tr">
+                <td class="table-money__first-row table-money__td--padding">01.06.2015</td>
+                <td class="table-money__td--padding">2 190.00</td>
+                <td class="table-money__td--padding">1 190.00</td>
+                <td class="table-money__td--padding">1 000.00</td>
+                <td class="table-money__penultimate-row table-money__td--padding">12.50</td>
+                <td class="table-money__last-row table-money__td--padding">2 187.50</td>
+              </tr>
+              <tr class="table-money__tr">
+                <td class="table-money__first-row table-money__td--padding" table-money__td--padding>01.06.2015</td>
+                <td class="table-money__td--padding">2 190.00</td>
+                <td class="table-money__td--padding">1 190.00</td>
+                <td class="table-money__td--padding">1 000.00</td>
+                <td class="table-money__penultimate-row table-money__td--padding">12.50</td>
+                <td class="table-money__last-row table-money__td--padding">2 187.50</td>
+              </tr>
+              <tr class="table-money__tr">
+                <td class="table-money__first-row table-money__td--padding">01.06.2015</td>
+                <td class="table-money__td--padding">2 190.00</td>
+                <td class="table-money__td--padding">1 190.00</td>
+                <td class="table-money__td--padding">1 000.00</td>
+                <td class="table-money__penultimate-row table-money__td--padding">12.50</td>
+                <td class="table-money__last-row table-money__td--padding">2 187.50</td>
+              </tr>
+              <tr class="table-money__tr">
+                <td class="table-money__first-row table-money__td--padding">01.06.2015</td>
+                <td class="table-money__td--padding">2 190.00</td>
+                <td class="table-money__td--padding">1 190.00</td>
+                <td class="table-money__td--padding">1 000.00</td>
+                <td class="table-money__penultimate-row table-money__td--padding">12.50</td>
+                <td class="table-money__last-row table-money__td--padding">2 187.50</td>
+              </tr>
+              <tr class="table-money__tr">
+                <td class="table-money__first-row table-money__td--padding">01.06.2015</td>
+                <td class="table-money__td--padding">2 190.00</td>
+                <td class="table-money__td--padding">1 190.00</td>
+                <td class="table-money__td--padding">1 000.00</td>
+                <td class="table-money__penultimate-row table-money__td--padding">12.50</td>
+                <td class="table-money__last-row table-money__td--padding">2 187.50</td>
+              </tr>
+            </tbody>
+          </table>        
+        </div> <!-- end div class="table-responsive content__table" -->
+        <div class="clearfix"></div>
+        <!-- end block table open block content__footer -->
+        <div class="content__footer">
+			<div class="footer">
+	          <ul class="footer__chevron-list float-l">
+	            <li class="footer__chevron-item footer__a-hover float-l">
+	              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+	             </li>
+	            <li class="footer__chevron-item footer__chevron-item--border-l float-r footer__a-hover">
+	              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+	            </li>
+	          </ul>
+	          <div class="footer__vertical-line float-l"></div>
+	          <div class="footer__page float-l">
+	            <ul class="page">
+	              <li class="page__item page__item--margin float-l">Страница</li>
+	              <li class="page__item float-l">
+	                <input class="page__input" type="text" value="12" maxlength="2" size="2" > 
+	              </li>
+	              <li class="page__item page__item--margin float-l">из 22</li>
+	          </ul>
+	          </div>
+	          <div class="footer__button footer__a-hover float-r">
+	            <img src="images/exel.png" alt="" class="footer__button-img float-l">
+	            <span class="footer__button-text">Экспорт в Excel</span>
+	          </div>     
+          	</div><!-- end block footer --> 			
+		</div><!-- end block content__footer -->
+	</div><!-- end block content -->
+
+
+
+
+	<!-- javascript -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>	
+</body>
+</html>

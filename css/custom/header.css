@@ -1,0 +1,57 @@
+/* open block header */
+.header{
+	height: 36px;
+	background-color: #4bae4f;
+	color: white; /* text color*/
+}
+.search-icon{
+	padding: 9px 14px;
+}
+.search-icon:hover{
+	cursor: pointer;
+}
+.search-icon__text{
+	padding-left: 12px;
+}
+.search-panel{
+	width: calc(100% - 280px);
+	height: 28px;
+	margin-top: 3px;
+	margin-left: 74px;	
+	background-color: #66ba69;
+	border-radius: 4px;
+}
+.search-panel__icon{
+	padding: 6px 5px 5px 15px;
+}
+.search-panel__icon:hover{
+	cursor: pointer;
+}
+.search-panel__search{	
+	width:calc(100% - 40px);
+}
+.search-panel__input{	
+	height: 28px;
+	padding-bottom: 9px; 
+	background-color: #66ba69;
+	border: none;
+	outline: none;
+	color: white; /* text color */
+}
+.search-panel__input:hover{
+	cursor: pointer;
+}
+input.search-panel__input--color-placeholder:-ms-input-placeholder{         
+    color: white; /* text color placeholder IE  */
+    font: 13px "Roboto", sans-serif;
+}
+input.search-panel__input--color-placeholder::-webkit-input-placeholder{
+	color: white; /* text color placeholder */
+	font: 13px "Roboto", sans-serif;
+	padding-top: 4px;
+}
+input.search-panel__input--color-placeholder::-moz-placeholder{
+	color: white; /* text color placeholder */
+	font: 13px "Roboto", sans-serif;
+	padding-top: 0 !important;	
+}

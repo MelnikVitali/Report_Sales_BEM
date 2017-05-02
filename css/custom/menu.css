@@ -1,0 +1,45 @@
+/* open block menu*/
+
+.menu__img{
+	width:20px; /* размер картинки */
+	margin-top: 4px;
+}
+.menu__grey-line{	/* серая полоса */
+	width: 29px;
+	height: 1px;
+	margin-left: 13px;
+	background-color: #d9d9d9;
+}
+.menu__item--border{
+	border-left: 3px solid transparent; /*прозрачная под цветную при наведении*/ 
+}
+.menu__item--border:hover{
+	border-left: 3px solid #666666;
+}
+.menu__item--redorange-border:hover{
+	border-color: #FF4500;
+}
+.menu__item--green-border:hover{
+	border-color: #4BAE4F;
+}
+.menu__item--redcoral-border:hover{
+	border-color: #DF4577;
+}
+.menu__item--blueviolet-border:hover{
+	border-color: #8849C6;
+}
+.menu__item--blue-border:hover{
+	border-color: #3468B8;
+}
+.menu__item--lightblue-border:hover{
+	border-color: #13ABE4;
+}
+.menu__item--darkgreen-border:hover{
+	border-color: #14936E;
+}
+.menu__item--orange-border:hover{
+	border-color: #FEA11F;
+}
+.menu__item--orangebrown-border:hover{
+	border-color: #E05D25;
+}

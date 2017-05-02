@@ -1,0 +1,9 @@
+/* open block content*/
+.content{
+	width: calc(100% - 53px);
+	width:-webkit-calc(100% - 53px);
+	padding: 20px;		
+	height: 100%;	
+	background-color: #f2f2f2;
+	border: 0px solid black;
+}

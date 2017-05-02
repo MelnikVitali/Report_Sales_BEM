@@ -1,0 +1,72 @@
+/*  open block content__footer*/
+.footer{
+	background: white;
+	padding: 25px 15px;
+	border-bottom: none;
+	font-size: 12px;
+	text-align: center;
+	overflow: hidden;  /*помещение обтекаемых объектов в блок*/	
+}
+.footer__chevron-list{
+	color:#686969;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	display: inline-block;
+}
+.footer__chevron-item{
+	padding: 6px 18px;
+}
+.footer__chevron-item--border-l {
+	border-left: 1px solid #d9d9d9; 
+}
+.footer__a-hover:hover{
+	background-color: #d9d9d9;
+	cursor: pointer;
+}
+.footer__vertical-line{/* серая полоса */
+	margin: 1px 13px 0 25px;        /* отступ */
+	width: 1px;
+	height: 23px;
+	background-color: #d9d9d9;	
+}
+.futer__page{
+	/*выравнивание по центру потомку display: inline-block; 
+	родителю text-align: center;*/
+	text-align: center; }
+.page{
+	/*выравнивание по центру потомку display: inline-block;
+	 родителю text-align: center;*/
+	display: inline-block;
+}
+.page__item--margin{
+	margin: 7px 8px;
+	word-spacing: 3px;	
+}
+.page__input{/*кнопка*/
+	margin-top: 1px;
+	padding: 5px 4px;
+    outline: none;
+    text-align: center;
+    color: #767676;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background: #FBFBFC;
+}
+.page__input:hover{
+	cursor: pointer;
+}
+.footer__button{
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 6px;
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+}
+.footer__button-img{
+	width: 13px;
+	height: 15px;
+}
+.footer__button-text{
+	padding-left: 5px;
+	vertical-align: middle;
+}
