@@ -41,17 +41,17 @@
 .search-panel__input:hover{
 	cursor: pointer;
 }
-input.search-panel__input--color-placeholder:-ms-input-placeholder{         
+input.search-panel__input--color-placeholder:-ms-input-placeholder{
+    font: 13px "Roboto", sans-serif;             
     color: white; /* text color placeholder IE  */
-    font: 13px "Roboto", sans-serif;
 }
-input.search-panel__input--color-placeholder::-webkit-input-placeholder{
-	color: white; /* text color placeholder */
-	font: 13px "Roboto", sans-serif;
+input.search-panel__input--color-placeholder::-webkit-input-placeholder{	
 	padding-top: 4px;
+	font: 13px "Roboto", sans-serif;
+	color: white; /* text color placeholder */
 }
 input.search-panel__input--color-placeholder::-moz-placeholder{
-	color: white; /* text color placeholder */
+	padding-top: 0 !important;
 	font: 13px "Roboto", sans-serif;
-	padding-top: 0 !important;	
+	color: white; /* text color placeholder */		
 }

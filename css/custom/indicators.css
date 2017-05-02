@@ -4,11 +4,11 @@
 	width:-webkit-calc(100% - 320px);
 	height: 283px;
 	margin-bottom: 25px;
-	border: 1px solid  #d9d9d9;
-	border-top: 0;
-	background: white;
 	font-size: 11px;
 	color:#767676; /* text color*/
+	background: white;
+	border: 1px solid  #d9d9d9;
+	border-top: 0;	
 	overflow: hidden;
 }
 .indicators__schedule{	

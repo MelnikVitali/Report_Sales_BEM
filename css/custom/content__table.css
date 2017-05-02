@@ -1,23 +1,23 @@
 /* open block content__table */
 
-.table-money{
-	font-size: 14px;
-	color:#767676; /* text color*/
+.table-money{	
 	margin-bottom: 0;
-	margin-left: 0;	
-	background: white;
+	margin-left: 0;
 	text-align: right;
+	font-size: 14px;	
+	color:#767676; /* text color*/	
+	background: white;	
 	border: 1px solid  #d9d9d9;	 
 }
 .table-money__tr:hover{
 	cursor: pointer;
 }
 .table-money__last-row{    /* Стили для последней колонки в таблице */
+	text-align: center;
 	font-weight: bold;
 	font-size: 13px;
 	background-color:  #FFFAEA;
-	border-left: 1px solid  #d9d9d9;
-	text-align: center;
+	border-left: 1px solid  #d9d9d9;	
 }
 .table-money__tr:hover .table-money__last-row{
   background-color: #f5f5f5 !important; /*  при наведении на любую ячейку таблицы 
@@ -26,9 +26,9 @@
 .table-money__td--padding{
 	padding: 12px 10px !important;
 }
-.table-money__first-row{ /* Стили для первой колонки в таблице */
-	text-align: left;
+.table-money__first-row{ /* Стили для первой колонки в таблице */	
 	padding-left: 15px !important;
+	text-align: left;
 }
 .table-money__penultimate-row{
 	padding-right: 30px !important;/* предпоследний ряд колонка */

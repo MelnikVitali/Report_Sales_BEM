@@ -1,22 +1,22 @@
 /* open block content__header */
 .text-report{
-	color: #767676; /* text color*/
 	font: 19px "Roboto", sans-serif;
+	color: #767676;       /* text color*/	
 	overflow: hidden;	
 }
 .tab-report__data{
 	border: 1px solid #dedede;
 	border-radius: 4px;
 	background: white;
-	white-space: nowrap;/*весь текст отображается одной строкой*/
+	white-space: nowrap;   /*весь текст отображается одной строкой*/
 }
 .tab-report__data--margin-l{
 	margin-left: 8px;     /* отступы между блоками день */
 }
 .tab-report__day{
-	padding: 6px 8px; /*добавляем рамку и отступы ссылкам*/
-	border-left: 1px solid #dedede;
+	padding: 6px 8px; /*добавляем рамку и отступы ссылкам*/	
 	font-size: 11px;
+	border-left: 1px solid #dedede;
 }
 .tab-report__day:first-child{   /*убираем бордер слевой стороны*/
 	border-left: none;
@@ -25,11 +25,10 @@
 	background-color: #d9d9d9;
 	cursor: pointer;
 }
-.tab-report__line{/* серая полоса вертикально */
-	margin: 0 15px;        /* отступ */
+.tab-report__line{/* серая полоса вертикально */	
 	width: 1px;
 	height: 23px;
-	margin-top: 2px;
+	margin: 2px 15px 0 15px;        /* отступ */
 	background-color: #d9d9d9;
 }
 .icon--m-width{

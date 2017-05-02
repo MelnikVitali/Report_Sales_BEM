@@ -1,17 +1,17 @@
 /*  open block content__footer*/
-.footer{
-	background: white;
-	padding: 25px 15px;
-	border-bottom: none;
+.footer{	
+	padding: 25px 15px;	
 	font-size: 12px;
 	text-align: center;
+	border-bottom: none;
+	background: white;
 	overflow: hidden;  /*помещение обтекаемых объектов в блок*/	
 }
 .footer__chevron-list{
+	display: inline-block;
 	color:#686969;
 	border: 1px solid #d9d9d9;
-	border-radius: 3px;
-	display: inline-block;
+	border-radius: 3px;	
 }
 .footer__chevron-item{
 	padding: 6px 18px;
@@ -23,10 +23,10 @@
 	background-color: #d9d9d9;
 	cursor: pointer;
 }
-.footer__vertical-line{/* серая полоса */
-	margin: 1px 13px 0 25px;        /* отступ */
+.footer__vertical-line{      /* серая полоса */	
 	width: 1px;
 	height: 23px;
+	margin: 1px 13px 0 25px;        /* отступ */
 	background-color: #d9d9d9;	
 }
 .futer__page{
@@ -56,9 +56,9 @@
 	cursor: pointer;
 }
 .footer__button{
-	font-size: 12px;
-	text-transform: uppercase;
 	padding: 6px;
+	font-size: 12px;
+	text-transform: uppercase;	
 	border: 1px solid #d9d9d9;
 	border-radius: 3px;
 }

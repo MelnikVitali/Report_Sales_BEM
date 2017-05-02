@@ -63,7 +63,7 @@
 		border-left: none;
 	}
 }
-@media all and (max-width: 547px){
+@media all and (max-width: 565px){
 	.footer__vertical-line{
 		display: none;
 	}

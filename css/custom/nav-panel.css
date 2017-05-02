@@ -6,11 +6,11 @@
 .nav-panel__border{
 	border: 1px solid #dedede;  /*блок обертка с бордером */ 
 }
-.nav-panel__list{    
+.nav-panel__list{  
+	width: 100%;     /*ширина блока для вмещения трех внутри */  
 	padding: 8px 10px;
 	border-left: 4px solid transparent; /*место под зеленую полосу при наведении */
-	cursor: pointer;
-	width: 100%; /*ширина блока для вмещения трех внутри */
+	cursor: pointer;	
 }
 .nav-panel__list:hover{   /* поведение при наведении */
 	background-color: #f2f2f2;
@@ -41,32 +41,32 @@
 }
 .item-img{  /* блок с значком */
 	display: inline-block;
-	text-align: left;
 	width: 49%;	
+	text-align: left;	
 }
 .nav-panel__img{           /*позиция значка в ссылке */
-	font-size: 17px;       /*размер значка */
-	vertical-align: middle;
 	margin-left: 4px;       /*отступ значка */
+	font-size: 17px;        /*размер значка */
+	vertical-align: middle;	
 }
 .nav-panel__text{             /*текст рядом со значком */ 
+    padding-left: 12px;
     vertical-align: middle;
     text-align: left;
-    padding-left: 12px;
 }
 .item-circle{           /* блок средний с кругом и бордером при наведении*/
-	text-align: right;
 	width: 24%;
+	text-align: right;	
 }
 .nav-panel__circle{            /*круги в ссылках*/	
 	display: inline-block;
-	vertical-align: middle;
-	margin-right: 4px;
+	vertical-align: middle;	
 	width: 26px;
 	height: 26px;
-	border-radius: 50%;
-	border: 3px solid transparent; /* место под бордер при наведении */
+	margin-right: 4px;
 	padding: 3px;            /* место белого цвета между бордером и кругом */
+	border-radius: 50%;
+	border: 3px solid transparent; /* место под бордер при наведении */	
 	background-color: white;
 }
 .nav-panel__list:hover .nav-panel__circle--color-green{ 
@@ -116,24 +116,24 @@
 .nav-panel__circle-inside--color-orange{
 	background-color: #E18025;
 }
-.item-text{ /* блок с цыфрами правый */
-	text-align: right;
+.item-text{            /* блок с цыфрами правый */
 	width: 24%;
+	text-align: right;	
 	font-size: 18px;
 }	
 .nav-panel__list--big{	             /*верхний большой блок */
-	padding: 30px 10px 30px 3px;          /*расширение блока */
-	cursor: pointer;
+	padding: 30px 10px 30px 3px;          /*расширение блока */	
 	color: #8CC744;
 	border-left: 4px solid #8CC744;/*зеленая полоса слева */
+	cursor: pointer;
 }
 .nav-panel__circle--big{
 	width: 40px;            /*блок с бордером вокруг круга */
 	height: 40px;
 	margin-right: 0;
-	border-radius: 50%;
-	border: 3px solid #8BC846;
 	padding: 4px;           /*белое поле между бордером и кругом */
+	border-radius: 50%;
+	border: 3px solid #8BC846;	
 }
 .nav-panel__img--big{           /*позиция значка в ссылке */
 	width: 32px;             /*размер значка */
