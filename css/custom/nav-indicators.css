@@ -15,14 +15,14 @@
     overflow: hidden; /* Обрезаем содержимое */
     text-overflow: ellipsis; /* Многоточие */
 }
-.nav-indicators__grafik{
+.nav-indicators__graph{
 	display: inline-block;
 	text-align: center;
 	min-width: 50px;
 	padding: 6px 18px;    
 	border-bottom: 3px solid transparent;   
 }
-.nav-indicators__grafik:hover{
+.nav-indicators__graph:hover{
 	border-bottom: 3px solid #48A84F;
 	color: #48A84F; 
 	background-color: #f2f2f2;
@@ -32,7 +32,7 @@
 	border-left: 1px solid  #d9d9d9;
 	border-right: 1px solid  #d9d9d9;
 }
-.nav-indicators__grafik-img{
+.nav-indicators__graph-img{
 	font-size: 23px;	
 }
 .nav-indicators__group{
