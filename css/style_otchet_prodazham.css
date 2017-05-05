@@ -17,10 +17,10 @@
 @import url('custom/content.css');
 
 /* open block content__header */
-@import url('custom/content__header.css');
+@import url('custom/content_header.css');
 
 /* open block content__article */
-@import url('custom/content__article.css');
+@import url('custom/content_article.css');
 
 /* open block nav-panel */
 @import url('custom/nav-panel.css');
@@ -32,10 +32,10 @@
 @import url('custom/indicators.css');
 
 /* open block content__table */
-@import url('custom/content__table.css');
+@import url('custom/content_table.css');
 
 /*  open block content__footer*/
-@import url('custom/content__footer.css');
+@import url('custom/content_footer.css');
 
 /* media-queries */
 @import url('custom/media-queries.css');
